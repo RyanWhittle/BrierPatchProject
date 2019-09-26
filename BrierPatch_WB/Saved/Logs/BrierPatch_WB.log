@@ -919,3 +919,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.26-22.01.41:216][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
 [2019.09.26-22.01.41:251][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
 [2019.09.26-22.01.41:300][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-22.02.14:757][947]LogEditorViewport: Clicking Background
+[2019.09.26-22.02.27:669][718]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-22.02.28:637][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-22.02.28:664][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.09.26-22.02.29:675][776]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevelD6F7FDC0411DA037093654AED18A82E4.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel.umap'
+[2019.09.26-22.02.29:708][776]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevel_BuiltData2521FEEB4D07369924A84AAA35D4B9B9.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel_BuiltData.uasset'
