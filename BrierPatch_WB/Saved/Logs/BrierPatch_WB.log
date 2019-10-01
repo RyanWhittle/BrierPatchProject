@@ -1,4 +1,4 @@
-﻿Log file open, 09/26/19 15:54:37
+﻿Log file open, 10/01/19 10:37:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: BrierPatch_WB
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.400583
+LogStats: Stats thread started at 3.161594
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,772 +156,448 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.09.26-21.54.37:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:740][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:742][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.26-21.54.37:742][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.26-21.54.37:743][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.26-21.54.37:743][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.26-21.54.37:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.26-21.54.37:755][  0]LogHAL: Display: Platform has ~ 16 GB [17031782400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.09.26-21.54.37:755][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.09.26-21.54.37:755][  0]LogInit: Going up to parent DeviceProfile []
-[2019.09.26-21.54.37:755][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:755][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.26-21.54.37:756][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.09.26-21.54.37:757][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
-[2019.09.26-21.54.37:757][  0]LogInit: Computer: DESKTOP-7QKCKOQ
-[2019.09.26-21.54.37:757][  0]LogInit: User: tkk30
-[2019.09.26-21.54.37:757][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.09.26-21.54.37:757][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.09.26-21.54.37:757][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.09.26-21.54.37:757][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.26-21.54.37:757][  0]LogMemory: Process Physical Memory: 97.16 MB used, 97.17 MB peak
-[2019.09.26-21.54.37:757][  0]LogMemory: Process Virtual Memory: 89.83 MB used, 89.83 MB peak
-[2019.09.26-21.54.37:757][  0]LogMemory: Physical Memory: 8356.63 MB used,  7886.14 MB free, 16242.77 MB total
-[2019.09.26-21.54.37:757][  0]LogMemory: Virtual Memory: 4660.43 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.09.26-21.54.37:821][  0]LogInit: Using OS detected language (en-US).
-[2019.09.26-21.54.37:821][  0]LogInit: Using OS detected locale (en-US).
-[2019.09.26-21.54.37:822][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.09.26-21.54.37:951][  0]LogInit: Setting process to per monitor DPI aware
-[2019.09.26-21.54.37:983][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.09.26-21.54.37:983][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.09.26-21.54.38:121][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.26-21.54.38:121][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.26-21.54.38:172][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.09.26-21.54.38:172][  0]LogD3D11RHI:       8089/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.09.26-21.54.38:202][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.09.26-21.54.38:202][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.09.26-21.54.38:204][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.26-21.54.38:204][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.26-21.54.38:204][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.26-21.54.38:212][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.26-21.54.38:212][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2019.09.26-21.54.38:212][  0]LogWindows: EnumDisplayDevices:
-[2019.09.26-21.54.38:212][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.09.26-21.54.38:212][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.09.26-21.54.38:212][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.09.26-21.54.38:213][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.09.26-21.54.38:213][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.09.26-21.54.38:213][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.09.26-21.54.38:213][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.09.26-21.54.38:213][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.09.26-21.54.38:214][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.09.26-21.54.38:214][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
-[2019.09.26-21.54.38:214][  0]LogD3D11RHI:      Driver Date: 3-7-2018
-[2019.09.26-21.54.38:214][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2019.09.26-21.54.38:239][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.26-21.54.38:242][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.09.26-21.54.38:242][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.09.26-21.54.38:242][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.09.26-21.54.38:249][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.09.26-21.54.38:548][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.09.26-21.54.38:559][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.09.26-21.54.38:570][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.09.26-21.54.38:581][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.09.26-21.54.38:593][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.09.26-21.54.38:605][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.09.26-21.54.38:616][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.09.26-21.54.38:627][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.09.26-21.54.38:633][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.09.26-21.54.38:698][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.09.26-21.54.38:699][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.09.26-21.54.38:699][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.09.26-21.54.38:699][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.09.26-21.54.38:699][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.09.26-21.54.38:699][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.09.26-21.54.38:699][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.09.26-21.54.38:700][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.09.26-21.54.38:743][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.09.26-21.54.38:743][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.09.26-21.54.38:761][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.09.26-21.54.38:761][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.09.26-21.54.38:771][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.09.26-21.54.38:781][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.09.26-21.54.38:791][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.09.26-21.54.38:801][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.09.26-21.54.38:836][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.09.26-21.54.38:836][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.09.26-21.54.38:836][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.26-21.54.38:842][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.09.26-21.54.38:879][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Intermediate/Shaders/WorkingDirectory/23420/).
-[2019.09.26-21.54.38:879][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tkk30/AppData/Local/Temp/UnrealShaderWorkingDir/A83D325E46F83756747012ACC2519C04/'.
-[2019.09.26-21.54.38:880][  0]LogXGEController: Cleaning working directory: C:/Users/tkk30/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.09.26-21.54.38:881][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.09.26-21.54.38:881][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.09.26-21.54.38:881][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.09.26-21.54.39:342][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.26-21.54.39:389][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/tkk30/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.09.26-21.54.39:389][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tkk30/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.09.26-21.54.39:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.26-21.54.39:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.26-21.54.39:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.26-21.54.39:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.26-21.54.39:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.26-21.54.39:400][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.26-21.54.39:400][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.09.26-21.54.39:412][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tkk30/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.26-21.54.39:412][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.09.26-21.54.39:412][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.09.26-21.54.39:430][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.26-21.54.39:431][  0]LogSlate: Using FreeType 2.6.0
-[2019.09.26-21.54.39:432][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.26-21.54.39:503][  0]LogAssetRegistry: FAssetRegistry took 0.0312 seconds to start up
-[2019.09.26-21.54.39:792][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.26-21.54.39:906][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.26-21.54.39:906][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.09.26-21.54.39:906][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.09.26-21.54.39:906][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.09.26-21.54.39:906][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.09.26-21.54.39:919][  0]LogNetVersion: BrierPatch_WB 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1950554613)
-[2019.09.26-21.54.40:288][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.028844 seconds
-[2019.09.26-21.54.40:294][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.09.26-21.54.40:294][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.09.26-21.54.40:294][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.26-21.54.40:946][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.26-21.54.40:959][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.26-21.54.41:052][  0]SourceControl: Source control is disabled
-[2019.09.26-21.54.41:052][  0]SourceControl: Source control is disabled
-[2019.09.26-21.54.41:053][  0]SourceControl: Source control is disabled
-[2019.09.26-21.54.41:054][  0]SourceControl: Source control is disabled
-[2019.09.26-21.54.41:105][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.26-21.54.41:468][  0]LogOcInput: OculusInput pre-init called
-[2019.09.26-21.54.42:026][  0]LogEngine: Initializing Engine...
-[2019.09.26-21.54.42:026][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.26-21.54.42:027][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.09.26-21.54.42:206][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.09.26-21.54.42:217][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.26-21.54.42:286][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.09.26-21.54.42:345][  0]LogInit: FAudioDevice initialized.
-[2019.09.26-21.54.42:345][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.09.26-21.54.42:416][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/tkk30/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.09.26-21.54.42:425][  0]LogInit: Texture streaming: Enabled
-[2019.09.26-21.54.42:438][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.26-21.54.42:456][  0]LogInit: Transaction tracking system initialized
-[2019.09.26-21.54.42:474][  0]BlueprintLog: New page: Editor Load
-[2019.09.26-21.54.42:536][  0]LocalizationService: Localization service is disabled
-[2019.09.26-21.54.42:780][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/' took 0.01s
-[2019.09.26-21.54.42:780][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.26-21.54.42:780][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.26-21.54.42:909][  0]SourceControl: Source control is disabled
-[2019.09.26-21.54.42:909][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.26-21.54.42:909][  0]LightingResults: New page: Lighting Build
-[2019.09.26-21.54.42:911][  0]MapCheck: New page: Map Check
-[2019.09.26-21.54.42:911][  0]LightingResults: New page: Lighting Build
-[2019.09.26-21.54.42:938][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
-[2019.09.26-21.54.43:000][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.09.26-21.54.43:006][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.26-21.54.43:031][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2019.09.26-21.54.43:031][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.26-21.54.43:031][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.099ms to complete.
-[2019.09.26-21.54.43:031][  0]LogFileHelpers: Loading map 'Template_Default' took 0.122
-[2019.09.26-21.54.43:127][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.26-21.54.43:130][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.26-21.54.43:138][  0]LogCollectionManager: Loaded 0 collections in 0.001288 seconds
-[2019.09.26-21.54.43:153][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Collections/' took 0.01s
-[2019.09.26-21.54.43:153][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/Developers/tkk30/Collections/' took 0.00s
-[2019.09.26-21.54.43:153][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/Collections/' took 0.00s
-[2019.09.26-21.54.43:153][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.09.26-21.54.43:160][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2732 classes and 659 folders.
-[2019.09.26-21.54.43:165][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.26-21.54.43:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:169][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:169][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:169][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:171][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:171][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:171][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:174][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:174][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.09.26-21.54.43:192][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.26-21.54.43:196][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.09.26-21.54.43:208][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.26-21.54.43:210][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.26-21.54.43:214][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.26-21.54.43:252][  0]LogRenderer: Reallocating scene render targets to support 632x696 Format 10 NumSamples 1 (Frame:1).
-[2019.09.26-21.54.43:369][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.26-21.54.43:369][  0]LogLoad: (Engine Initialization) Total time: 7.22 seconds
-[2019.09.26-21.54.43:369][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.26-21.54.43:409][  0]LogAssetRegistry: Asset discovery search completed in 3.9276 seconds
-[2019.09.26-21.54.43:411][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.09.26-21.54.43:411][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
-[2019.09.26-21.54.43:414][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.26-21.54.43:465][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.26-21.54.48:274][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.26-21.54.48:377][295]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.26-21.54.48:512][295]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/BasicWhiteBoxLevel.BasicWhiteBoxLevel:PersistentLevel.ModelComponent_146495' invalid (9386 verts, 0 indices).
-[2019.09.26-21.54.48:512][295]LogPhysics: Warning: Attempt to build physics data for /Game/BasicWhiteBoxLevel.BasicWhiteBoxLevel:PersistentLevel.ModelComponent_146495.BodySetup_0 when we are unable to.
-[2019.09.26-21.54.48:699][295]LogAIModule: Creating AISystem for world BasicWhiteBoxLevel
-[2019.09.26-21.54.49:630][295]LogAssetEditorManager: Opening Asset editor for World /Game/BasicWhiteBoxLevel.BasicWhiteBoxLevel
-[2019.09.26-21.54.49:654][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2019.09.26-21.54.49:655][295]Cmd: MAP LOAD FILE="../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.26-21.54.49:655][295]LightingResults: New page: Lighting Build
-[2019.09.26-21.54.49:656][295]LoadErrors: New page: Loading map: BasicWhiteBoxLevel.umap
-[2019.09.26-21.54.49:656][295]MapCheck: New page: Map Check
-[2019.09.26-21.54.49:656][295]LightingResults: New page: Lighting Build
-[2019.09.26-21.54.49:682][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2019.09.26-21.54.49:705][295]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.26-21.54.50:852][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
-[2019.09.26-21.54.50:869][295]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.26-21.54.50:869][295]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
-[2019.09.26-21.54.50:869][295]LogFileHelpers: Loading map 'BasicWhiteBoxLevel' took 1.214
-[2019.09.26-21.54.57:837][591]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.09.26-21.59.03:920][ 92]LogDirectoryWatcher: A directory notification failed for 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/Collections/' because it could not be accessed. Aborting watch request...
-[2019.09.26-21.59.03:920][ 92]LogDirectoryWatcher: A directory notification failed for 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/Developers/tkk30/Collections/' because it could not be accessed. Aborting watch request...
-[2019.09.26-21.59.03:920][ 92]LogDirectoryWatcher: A directory notification failed for 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Collections/' because it could not be accessed. Aborting watch request...
-[2019.09.26-21.59.08:680][261]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-21.59.09:766][326]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-21.59.09:798][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2019.09.26-21.59.10:807][326]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevelFEFF9E9448FB732AF82BD3AD93B0E7F5.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel.umap'
-[2019.09.26-21.59.10:849][326]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevel_BuiltDataAD7D96F84E8C661A485055BE511214E5.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel_BuiltData.uasset'
-[2019.09.26-21.59.55:249][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_flowers03 (AutoDXT, 1024X1024)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_tent02 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_grassplane02 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_grassplane01 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_treeleaves02 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_pinebranch02 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_pinebranch01 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_rockcluster05 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_pinebranch03 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_camppot01 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.56:730][213]LogTexture: Display: Building textures: t_rock01 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.57:690][213]LogTexture: Display: Building textures: t_rockcluster04 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.57:690][213]LogTexture: Display: Building textures: t_rockcluster03 (AutoDXT, 2048X2048)
-[2019.09.26-22.00.57:690][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_ROCK, compiling. 
-[2019.09.26-22.00.57:998][213]LogStaticMesh: Building static mesh SM_Tree_B...
-[2019.09.26-22.00.58:228][213]LogStaticMesh: Built static mesh [0.23s] /Game/StylizedForestKit/Meshes/SM_Tree_B.SM_Tree_B
-[2019.09.26-22.00.58:298][213]LogStaticMesh: Building static mesh SM_Tree_A...
-[2019.09.26-22.00.58:302][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.00.58:460][213]LogStaticMesh: Built static mesh [0.16s] /Game/StylizedForestKit/Meshes/SM_Tree_A.SM_Tree_A
-[2019.09.26-22.00.58:477][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_TENT, compiling. 
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_boulder05 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_boulder04 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_grassterrain01_glossiness (AutoDXT, 4096X4096)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_boulder03 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_treeleaves08 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_treeleaves07 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_treeleaves06 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_camppot02 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_flowers01 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.02:878][213]LogTexture: Display: Building textures: t_firepit01 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.02:879][213]LogTexture: Display: Building textures: t_flowers02 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.02:879][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_FOLIAGE, compiling. 
-[2019.09.26-22.01.03:535][213]LogTexture: Display: Building textures: t_firepit02 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.03:535][213]LogTexture: Display: Building textures: t_treeleaves05 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.03:536][213]LogTexture: Display: Building textures: t_treeleaves04 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.03:536][213]LogTexture: Display: Building textures: t_treeleaves03 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.03:536][213]LogStaticMesh: Building static mesh SM_Boulder_B...
-[2019.09.26-22.01.03:555][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.03:760][213]LogStaticMesh: Built static mesh [0.22s] /Game/StylizedForestKit/Meshes/SM_Boulder_B.SM_Boulder_B
-[2019.09.26-22.01.03:929][213]LogTexture: Display: Building textures: t_boulder01 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: t_boulder02 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: t_rockcluster02 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: t_rockcluster01 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: t_bush_a (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 2048X1024)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 1024X512)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 64X32)
-[2019.09.26-22.01.08:294][213]LogTexture: Display: Building textures: t_treeleaves01 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:295][213]LogTexture: Display: Building textures: t_fern01 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.08:295][213]LogTexture: Display: Building textures: t_grassterrain01 (AutoDXT, 4096X4096)
-[2019.09.26-22.01.08:295][213]LogStaticMesh: Building static mesh SM_Boulder_A...
-[2019.09.26-22.01.08:379][213]LogStaticMesh: Built static mesh [0.08s] /Game/StylizedForestKit/Meshes/SM_Boulder_A.SM_Boulder_A
-[2019.09.26-22.01.08:388][213]LogStaticMesh: Building static mesh SM_Logchair_A...
-[2019.09.26-22.01.08:393][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.08:432][213]LogStaticMesh: Built static mesh [0.04s] /Game/StylizedForestKit/Meshes/SM_Logchair_A.SM_Logchair_A
-[2019.09.26-22.01.08:504][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_FOLIAGE, compiling. 
-[2019.09.26-22.01.08:694][213]LogStaticMesh: Building static mesh SM_GrassCluster_C...
-[2019.09.26-22.01.08:698][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.08:705][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_GrassCluster_C.SM_GrassCluster_C
-[2019.09.26-22.01.08:776][213]LogStaticMesh: Building static mesh SM_Firepit_B...
-[2019.09.26-22.01.08:789][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.08:850][213]LogStaticMesh: Built static mesh [0.07s] /Game/StylizedForestKit/Meshes/SM_Firepit_B.SM_Firepit_B
-[2019.09.26-22.01.08:860][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_CAMPOBJECTS, compiling. 
-[2019.09.26-22.01.08:954][213]LogStaticMesh: Building static mesh SM_Firepit_A...
-[2019.09.26-22.01.08:961][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:020][213]LogStaticMesh: Built static mesh [0.07s] /Game/StylizedForestKit/Meshes/SM_Firepit_A.SM_Firepit_A
-[2019.09.26-22.01.09:030][213]LogStaticMesh: Building static mesh SM_Tent_B...
-[2019.09.26-22.01.09:035][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:051][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Tent_B.SM_Tent_B
-[2019.09.26-22.01.09:063][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_TENT, compiling. 
-[2019.09.26-22.01.09:121][213]LogStaticMesh: Building static mesh SM_Tent_A...
-[2019.09.26-22.01.09:126][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:139][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Tent_A.SM_Tent_A
-[2019.09.26-22.01.09:150][213]LogStaticMesh: Building static mesh SM_Sapling_B...
-[2019.09.26-22.01.09:155][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:237][213]LogStaticMesh: Built static mesh [0.09s] /Game/StylizedForestKit/Meshes/SM_Sapling_B.SM_Sapling_B
-[2019.09.26-22.01.09:248][213]LogStaticMesh: Building static mesh SM_GrassCluster_B...
-[2019.09.26-22.01.09:253][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:259][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_GrassCluster_B.SM_GrassCluster_B
-[2019.09.26-22.01.09:267][213]LogStaticMesh: Building static mesh SM_GrassCluster_A...
-[2019.09.26-22.01.09:275][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:281][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_GrassCluster_A.SM_GrassCluster_A
-[2019.09.26-22.01.09:296][213]LogStaticMesh: Building static mesh SM_Camppot_B...
-[2019.09.26-22.01.09:300][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:411][213]LogStaticMesh: Built static mesh [0.12s] /Game/StylizedForestKit/Meshes/SM_Camppot_B.SM_Camppot_B
-[2019.09.26-22.01.09:420][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_CAMPOBJECTS, compiling. 
-[2019.09.26-22.01.09:452][213]LogStaticMesh: Building static mesh SM_Camppot_A...
-[2019.09.26-22.01.09:457][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:480][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_Camppot_A.SM_Camppot_A
-[2019.09.26-22.01.09:493][213]LogStaticMesh: Building static mesh SM_RockCluster_E...
-[2019.09.26-22.01.09:498][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:543][213]LogStaticMesh: Built static mesh [0.05s] /Game/StylizedForestKit/Meshes/SM_RockCluster_E.SM_RockCluster_E
-[2019.09.26-22.01.09:565][213]LogStaticMesh: Building static mesh SM_RockCluster_D...
-[2019.09.26-22.01.09:570][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:611][213]LogStaticMesh: Built static mesh [0.05s] /Game/StylizedForestKit/Meshes/SM_RockCluster_D.SM_RockCluster_D
-[2019.09.26-22.01.09:634][213]LogStaticMesh: Building static mesh SM_FallenTree_A...
-[2019.09.26-22.01.09:640][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:720][213]LogStaticMesh: Built static mesh [0.09s] /Game/StylizedForestKit/Meshes/SM_FallenTree_A.SM_FallenTree_A
-[2019.09.26-22.01.09:733][213]LogMaterial: Display: Missing cached shader map for material M_Wood02, compiling. 
-[2019.09.26-22.01.09:848][213]LogStaticMesh: Building static mesh SM_Fallenpinetree_A...
-[2019.09.26-22.01.09:854][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:912][213]LogStaticMesh: Built static mesh [0.06s] /Game/StylizedForestKit/Meshes/SM_Fallenpinetree_A.SM_Fallenpinetree_A
-[2019.09.26-22.01.09:926][213]LogStaticMesh: Building static mesh SM_Rock_C...
-[2019.09.26-22.01.09:931][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:958][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_Rock_C.SM_Rock_C
-[2019.09.26-22.01.09:970][213]LogStaticMesh: Building static mesh SM_Rock_B...
-[2019.09.26-22.01.09:975][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.09:997][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_Rock_B.SM_Rock_B
-[2019.09.26-22.01.10:010][213]LogStaticMesh: Building static mesh SM_Rock_A...
-[2019.09.26-22.01.10:015][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:041][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_Rock_A.SM_Rock_A
-[2019.09.26-22.01.10:053][213]LogMaterial: Display: Missing cached shader map for material M_MASTER_ROCK, compiling. 
-[2019.09.26-22.01.10:138][213]LogStaticMesh: Building static mesh SM_Pinetree_C...
-[2019.09.26-22.01.10:143][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:213][213]LogStaticMesh: Built static mesh [0.07s] /Game/StylizedForestKit/Meshes/SM_Pinetree_C.SM_Pinetree_C
-[2019.09.26-22.01.10:265][213]LogStaticMesh: Building static mesh SM_Pinetree_B...
-[2019.09.26-22.01.10:273][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:383][213]LogStaticMesh: Built static mesh [0.12s] /Game/StylizedForestKit/Meshes/SM_Pinetree_B.SM_Pinetree_B
-[2019.09.26-22.01.10:432][213]LogStaticMesh: Building static mesh SM_Pinetree_A...
-[2019.09.26-22.01.10:438][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:539][213]LogStaticMesh: Built static mesh [0.11s] /Game/StylizedForestKit/Meshes/SM_Pinetree_A.SM_Pinetree_A
-[2019.09.26-22.01.10:553][213]LogStaticMesh: Building static mesh SM_Logchair_B...
-[2019.09.26-22.01.10:557][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:568][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Logchair_B.SM_Logchair_B
-[2019.09.26-22.01.10:599][213]LogStaticMesh: Building static mesh SM_Boulder_C...
-[2019.09.26-22.01.10:604][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:682][213]LogStaticMesh: Built static mesh [0.08s] /Game/StylizedForestKit/Meshes/SM_Boulder_C.SM_Boulder_C
-[2019.09.26-22.01.10:702][213]LogMaterial: Display: Missing cached shader map for material M_Wood01, compiling. 
-[2019.09.26-22.01.10:739][213]LogStaticMesh: Building static mesh SM_Campfood_A...
-[2019.09.26-22.01.10:744][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:773][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_Campfood_A.SM_Campfood_A
-[2019.09.26-22.01.10:782][213]LogStaticMesh: Building static mesh SM_Flowers_A...
-[2019.09.26-22.01.10:788][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:796][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_Flowers_A.SM_Flowers_A
-[2019.09.26-22.01.10:803][213]LogStaticMesh: Building static mesh SM_Flowers_C...
-[2019.09.26-22.01.10:809][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:816][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_Flowers_C.SM_Flowers_C
-[2019.09.26-22.01.10:822][213]LogStaticMesh: Building static mesh SM_Flowers_B...
-[2019.09.26-22.01.10:827][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:830][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_Flowers_B.SM_Flowers_B
-[2019.09.26-22.01.10:841][213]LogStaticMesh: Building static mesh SM_Woodpile...
-[2019.09.26-22.01.10:847][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:866][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Woodpile.SM_Woodpile
-[2019.09.26-22.01.10:883][213]LogStaticMesh: Building static mesh SM_Tree_E...
-[2019.09.26-22.01.10:889][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.10:916][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_Tree_E.SM_Tree_E
-[2019.09.26-22.01.10:952][213]LogStaticMesh: Building static mesh SM_Tree_D...
-[2019.09.26-22.01.10:957][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:042][213]LogStaticMesh: Built static mesh [0.09s] /Game/StylizedForestKit/Meshes/SM_Tree_D.SM_Tree_D
-[2019.09.26-22.01.11:101][213]LogStaticMesh: Building static mesh SM_Tree_C...
-[2019.09.26-22.01.11:106][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:277][213]LogStaticMesh: Built static mesh [0.18s] /Game/StylizedForestKit/Meshes/SM_Tree_C.SM_Tree_C
-[2019.09.26-22.01.11:315][213]LogStaticMesh: Building static mesh SM_Boulder_E...
-[2019.09.26-22.01.11:321][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:376][213]LogStaticMesh: Built static mesh [0.06s] /Game/StylizedForestKit/Meshes/SM_Boulder_E.SM_Boulder_E
-[2019.09.26-22.01.11:398][213]LogStaticMesh: Building static mesh SM_Boulder_D...
-[2019.09.26-22.01.11:405][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:491][213]LogStaticMesh: Built static mesh [0.09s] /Game/StylizedForestKit/Meshes/SM_Boulder_D.SM_Boulder_D
-[2019.09.26-22.01.11:507][213]LogStaticMesh: Building static mesh SM_RockCluster_A...
-[2019.09.26-22.01.11:512][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:535][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_RockCluster_A.SM_RockCluster_A
-[2019.09.26-22.01.11:549][213]LogStaticMesh: Building static mesh SM_Rock_E...
-[2019.09.26-22.01.11:554][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:586][213]LogStaticMesh: Built static mesh [0.04s] /Game/StylizedForestKit/Meshes/SM_Rock_E.SM_Rock_E
-[2019.09.26-22.01.11:599][213]LogStaticMesh: Building static mesh SM_Rock_D...
-[2019.09.26-22.01.11:605][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:635][213]LogStaticMesh: Built static mesh [0.04s] /Game/StylizedForestKit/Meshes/SM_Rock_D.SM_Rock_D
-[2019.09.26-22.01.11:651][213]LogStaticMesh: Building static mesh SM_RockCluster_C...
-[2019.09.26-22.01.11:657][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:699][213]LogStaticMesh: Built static mesh [0.05s] /Game/StylizedForestKit/Meshes/SM_RockCluster_C.SM_RockCluster_C
-[2019.09.26-22.01.11:712][213]LogStaticMesh: Building static mesh SM_RockCluster_B...
-[2019.09.26-22.01.11:719][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:739][213]LogStaticMesh: Built static mesh [0.03s] /Game/StylizedForestKit/Meshes/SM_RockCluster_B.SM_RockCluster_B
-[2019.09.26-22.01.11:770][213]LogStaticMesh: Building static mesh SM_Bush_B...
-[2019.09.26-22.01.11:776][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:791][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Bush_B.SM_Bush_B
-[2019.09.26-22.01.11:798][213]LogStaticMesh: Building static mesh SM_Bush_A...
-[2019.09.26-22.01.11:805][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:814][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Bush_A.SM_Bush_A
-[2019.09.26-22.01.11:855][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.11:907][213]LogStaticMesh: Building static mesh SM_Fern_A...
-[2019.09.26-22.01.11:912][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:922][213]LogStaticMesh: Built static mesh [0.01s] /Game/StylizedForestKit/Meshes/SM_Fern_A.SM_Fern_A
-[2019.09.26-22.01.11:929][213]LogStaticMesh: Building static mesh SM_Fern_B...
-[2019.09.26-22.01.11:935][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.11:945][213]LogStaticMesh: Built static mesh [0.02s] /Game/StylizedForestKit/Meshes/SM_Fern_B.SM_Fern_B
-[2019.09.26-22.01.11:959][213]LogStaticMesh: Building static mesh SM_Sapling_A...
-[2019.09.26-22.01.11:964][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.12:011][213]LogStaticMesh: Built static mesh [0.05s] /Game/StylizedForestKit/Meshes/SM_Sapling_A.SM_Sapling_A
-[2019.09.26-22.01.12:025][213]LogAIModule: Creating AISystem for world Overview
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_107 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_108 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_109 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_115 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_116 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_117 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
-[2019.09.26-22.01.12:475][213]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_206 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_207 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_209 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_208 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_210 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_211 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_86 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:476][213]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:477][213]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.12:482][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.12:600][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.12:710][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.12:800][213]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 4096X4096)
-[2019.09.26-22.01.12:808][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.12:921][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.13:088][213]LogMaterial: Display: Missing cached shader map for material M_TerrainMaterial_A, compiling. 
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 4096X4096)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 512X512)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 512X512)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 512X512)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 64X64)
-[2019.09.26-22.01.16:147][213]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 2048X2048)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 4096X4096)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 4096X4096)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.16:148][213]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.35:508][213]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.35:508][213]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 4096X4096)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 512X512)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 4096X4096)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 512X512)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 512X512)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 64X64)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 2048X2048)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 2048X2048)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 4096X4096)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 4096X4096)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:509][213]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 1024X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 4096X2048)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 4096X2048)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 4096X2048)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 4096X2048)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (G8, 2048X1024)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (G8, 1024X512)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (G8, 1024X512)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_35 (G8, 1024X512)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_36 (G8, 1024X512)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_37 (G8, 1024X512)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_38 (G8, 1024X512)
-[2019.09.26-22.01.35:510][213]LogTexture: Display: Building textures: ShadowMapTexture2D_39 (G8, 1024X512)
-[2019.09.26-22.01.35:511][213]LogTexture: Display: Building textures: ShadowMapTexture2D_40 (G8, 128X64)
-[2019.09.26-22.01.35:511][213]LogTexture: Display: Building textures: ShadowMapTexture2D_41 (G8, 64X32)
-[2019.09.26-22.01.35:511][213]LogAIModule: Creating AISystem for world Showcase
-[2019.09.26-22.01.35:751][213]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
-[2019.09.26-22.01.35:826][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.40:848][213]LogSlate: Window 'Delete Assets' being destroyed
-[2019.09.26-22.01.40:863][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.40:965][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.40:988][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.01.41:074][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
-[2019.09.26-22.01.41:108][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
-[2019.09.26-22.01.41:142][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
-[2019.09.26-22.01.41:174][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
-[2019.09.26-22.01.41:216][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
-[2019.09.26-22.01.41:251][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
-[2019.09.26-22.01.41:300][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.02.14:757][947]LogEditorViewport: Clicking Background
-[2019.09.26-22.02.27:669][718]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.02.28:637][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.09.26-22.02.28:664][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
-[2019.09.26-22.02.29:675][776]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevelD6F7FDC0411DA037093654AED18A82E4.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel.umap'
-[2019.09.26-22.02.29:708][776]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevel_BuiltData2521FEEB4D07369924A84AAA35D4B9B9.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel_BuiltData.uasset'
+[2019.10.01-16.37.31:100][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.01-16.37.31:100][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.01-16.37.31:100][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:100][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:101][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.01-16.37.31:101][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.01-16.37.31:102][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:102][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:143][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.01-16.37.31:143][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.01-16.37.31:144][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.01-16.37.31:157][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.01-16.37.31:157][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.01-16.37.31:200][  0]LogHAL: Display: Platform has ~ 16 GB [17031782400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.01-16.37.31:201][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.10.01-16.37.31:201][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.01-16.37.31:204][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:204][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Scalability.ini]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.01-16.37.31:205][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.01-16.37.31:211][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.01-16.37.31:211][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.01-16.37.31:211][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Config/Windows/Engine.ini]
+[2019.10.01-16.37.31:233][  0]LogInit: Computer: DESKTOP-7QKCKOQ
+[2019.10.01-16.37.31:233][  0]LogInit: User: tkk30
+[2019.10.01-16.37.31:233][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.01-16.37.31:233][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.01-16.37.31:233][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.01-16.37.31:233][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.01-16.37.31:233][  0]LogMemory: Process Physical Memory: 97.28 MB used, 97.29 MB peak
+[2019.10.01-16.37.31:233][  0]LogMemory: Process Virtual Memory: 90.03 MB used, 90.03 MB peak
+[2019.10.01-16.37.31:233][  0]LogMemory: Physical Memory: 9877.94 MB used,  6364.84 MB free, 16242.77 MB total
+[2019.10.01-16.37.31:233][  0]LogMemory: Virtual Memory: 4660.43 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.10.01-16.37.31:972][  0]LogInit: Using OS detected language (en-US).
+[2019.10.01-16.37.31:972][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.01-16.37.31:999][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.01-16.37.32:742][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.01-16.37.33:129][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.01-16.37.33:129][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.01-16.37.35:285][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.01-16.37.35:285][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.01-16.37.35:342][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.10.01-16.37.35:343][  0]LogD3D11RHI:       8089/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.01-16.37.35:377][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.10.01-16.37.35:377][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.01-16.37.35:380][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.01-16.37.35:380][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.01-16.37.35:380][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.01-16.37.35:390][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.01-16.37.35:391][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.01-16.37.35:391][  0]LogWindows: EnumDisplayDevices:
+[2019.10.01-16.37.35:391][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.10.01-16.37.35:391][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.10.01-16.37.35:391][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.10.01-16.37.35:391][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.10.01-16.37.35:392][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.01-16.37.35:392][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.01-16.37.35:392][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.01-16.37.35:392][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.01-16.37.35:392][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.10.01-16.37.35:392][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2019.10.01-16.37.35:392][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2019.10.01-16.37.35:392][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2019.10.01-16.37.35:426][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.01-16.37.35:506][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.01-16.37.35:508][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.01-16.37.35:508][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.01-16.37.35:535][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.01-16.37.36:222][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.01-16.37.36:253][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.01-16.37.36:274][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.01-16.37.36:321][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.01-16.37.36:371][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.01-16.37.36:407][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.01-16.37.36:429][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.01-16.37.36:449][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.01-16.37.36:471][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.01-16.37.36:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.01-16.37.36:599][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.01-16.37.36:729][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.01-16.37.36:729][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.01-16.37.36:770][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.01-16.37.36:770][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.01-16.37.36:803][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.01-16.37.36:822][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.01-16.37.36:855][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.01-16.37.36:883][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.01-16.37.36:942][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.01-16.37.36:942][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.01-16.37.36:942][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.01-16.37.37:069][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.01-16.37.37:728][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Intermediate/Shaders/WorkingDirectory/5680/).
+[2019.10.01-16.37.37:728][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tkk30/AppData/Local/Temp/UnrealShaderWorkingDir/7DAA1AE14843C4CB38E63EB43C829A0E/'.
+[2019.10.01-16.37.37:750][  0]LogXGEController: Cleaning working directory: C:/Users/tkk30/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.01-16.37.37:750][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.01-16.37.37:752][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.01-16.37.37:752][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.01-16.37.40:653][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.01-16.37.40:743][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/tkk30/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.01-16.37.40:743][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tkk30/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.10.01-16.37.40:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.01-16.37.40:744][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.01-16.37.40:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.01-16.37.40:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.01-16.37.40:819][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.01-16.37.40:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.01-16.37.40:820][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.01-16.37.40:832][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tkk30/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.01-16.37.40:832][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.01-16.37.40:832][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.01-16.37.40:883][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.01-16.37.40:947][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.01-16.37.41:025][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.01-16.37.41:643][  0]LogAssetRegistry: FAssetRegistry took 0.0346 seconds to start up
+[2019.10.01-16.37.45:012][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.01-16.37.46:643][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.01-16.37.46:643][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.01-16.37.46:643][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.01-16.37.46:643][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.01-16.37.46:643][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.01-16.37.47:054][  0]LogNetVersion: BrierPatch_WB 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1950554613)
+[2019.10.01-16.37.50:913][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037156 seconds
+[2019.10.01-16.37.50:931][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.10.01-16.37.50:931][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.10.01-16.37.50:931][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.01-16.37.58:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.01-16.37.58:504][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.01-16.37.59:169][  0]SourceControl: Source control is disabled
+[2019.10.01-16.37.59:182][  0]SourceControl: Source control is disabled
+[2019.10.01-16.37.59:280][  0]SourceControl: Source control is disabled
+[2019.10.01-16.37.59:327][  0]SourceControl: Source control is disabled
+[2019.10.01-16.38.00:545][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.01-16.38.01:379][  0]LogOcInput: OculusInput pre-init called
+[2019.10.01-16.38.02:878][  0]LogEngine: Initializing Engine...
+[2019.10.01-16.38.02:907][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.01-16.38.02:909][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.10.01-16.38.03:462][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.01-16.38.03:766][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.01-16.38.03:985][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.10.01-16.38.04:038][  0]LogInit: FAudioDevice initialized.
+[2019.10.01-16.38.04:038][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.01-16.38.04:109][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/tkk30/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.01-16.38.04:119][  0]LogInit: Texture streaming: Enabled
+[2019.10.01-16.38.04:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.01-16.38.04:398][  0]LogInit: Transaction tracking system initialized
+[2019.10.01-16.38.04:725][  0]BlueprintLog: New page: Editor Load
+[2019.10.01-16.38.05:935][  0]LocalizationService: Localization service is disabled
+[2019.10.01-16.38.08:111][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/' took 0.02s
+[2019.10.01-16.38.08:111][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.01-16.38.08:111][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.01-16.38.10:299][  0]SourceControl: Source control is disabled
+[2019.10.01-16.38.10:325][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.01-16.38.10:359][  0]LightingResults: New page: Lighting Build
+[2019.10.01-16.38.10:503][  0]MapCheck: New page: Map Check
+[2019.10.01-16.38.10:503][  0]LightingResults: New page: Lighting Build
+[2019.10.01-16.38.10:718][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.10.01-16.38.11:463][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.10.01-16.38.11:726][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.01-16.38.11:795][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.10.01-16.38.11:796][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.01-16.38.11:796][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.10.01-16.38.11:796][  0]LogFileHelpers: Loading map 'Template_Default' took 1.482
+[2019.10.01-16.38.12:773][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.01-16.38.12:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.01-16.38.12:860][  0]LogCollectionManager: Loaded 0 collections in 0.001307 seconds
+[2019.10.01-16.38.12:940][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/Collections/' took 0.01s
+[2019.10.01-16.38.12:940][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/Developers/tkk30/Collections/' took 0.00s
+[2019.10.01-16.38.12:940][  0]LogFileCache: Scanning file cache for directory 'D:/School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/Collections/' took 0.00s
+[2019.10.01-16.38.12:940][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.01-16.38.12:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2732 classes and 659 folders.
+[2019.10.01-16.38.13:002][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.01-16.38.13:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:120][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:139][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:155][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:177][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:207][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:223][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:238][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:274][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:312][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:353][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:373][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:388][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:418][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:427][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:444][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.13:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.01-16.38.14:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.01-16.38.14:526][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.01-16.38.14:672][  0]LogSlate: Took 0.028937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.01-16.38.14:699][  0]LogSlate: Took 0.011896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.01-16.38.14:737][  0]LogSlate: Took 0.018700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.01-16.38.15:069][  0]LogRenderer: Reallocating scene render targets to support 632x696 Format 10 NumSamples 1 (Frame:1).
+[2019.10.01-16.38.15:301][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.01-16.38.15:301][  0]LogLoad: (Engine Initialization) Total time: 69.61 seconds
+[2019.10.01-16.38.15:301][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.01 seconds
+[2019.10.01-16.38.15:433][  0]LogAssetRegistry: Asset discovery search completed in 33.8144 seconds
+[2019.10.01-16.38.15:447][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.10.01-16.38.15:447][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.10.01-16.38.15:491][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.01-16.38.15:649][  0]LogSlate: Took 0.005805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.01-16.38.54:944][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.01-16.39.09:108][935]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.01-16.39.10:030][935]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/BasicWhiteBoxLevel.BasicWhiteBoxLevel:PersistentLevel.ModelComponent_146495' invalid (9386 verts, 0 indices).
+[2019.10.01-16.39.10:030][935]LogPhysics: Warning: Attempt to build physics data for /Game/BasicWhiteBoxLevel.BasicWhiteBoxLevel:PersistentLevel.ModelComponent_146495.BodySetup_0 when we are unable to.
+[2019.10.01-16.39.22:622][935]LogAIModule: Creating AISystem for world BasicWhiteBoxLevel
+[2019.10.01-16.39.24:405][935]LogAssetEditorManager: Opening Asset editor for World /Game/BasicWhiteBoxLevel.BasicWhiteBoxLevel
+[2019.10.01-16.39.24:453][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.10.01-16.39.24:467][935]Cmd: MAP LOAD FILE="../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.01-16.39.24:467][935]LightingResults: New page: Lighting Build
+[2019.10.01-16.39.24:467][935]LoadErrors: New page: Loading map: BasicWhiteBoxLevel.umap
+[2019.10.01-16.39.24:473][935]MapCheck: New page: Map Check
+[2019.10.01-16.39.24:473][935]LightingResults: New page: Lighting Build
+[2019.10.01-16.39.24:533][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2019.10.01-16.39.24:583][935]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.01-16.39.26:955][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.10.01-16.39.26:984][935]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.01-16.39.26:984][935]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2019.10.01-16.39.26:984][935]LogFileHelpers: Loading map 'BasicWhiteBoxLevel' took 2.531
+[2019.10.01-16.39.31:794][939]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.10.01-16.39.36:106][192]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.01-16.40.15:597][793]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.526 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.01-16.40.48:005][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.01-16.40.51:830][997]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\School\EAE 3660 - Machinima\Sounds Machinima\Gravel Walk.wav)
+[2019.10.01-16.40.51:958][997]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\School\EAE 3660 - Machinima\Sounds Machinima\Police Siren.wav)
+[2019.10.01-16.40.52:326][997]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\School\EAE 3660 - Machinima\Sounds Machinima\Walking Along Highway.wav)
+[2019.10.01-16.40.53:919][997]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\School\EAE 3660 - Machinima\Sounds Machinima\Windy Night.wav)
+[2019.10.01-16.40.56:410][997]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\School\EAE 3660 - Machinima\Sounds Machinima\Car Speeding By.wav)
+[2019.10.01-16.40.56:460][997]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\School\EAE 3660 - Machinima\Sounds Machinima\Car Starting and Accelerating.wav)
+[2019.10.01-16.41.06:856][124]LogEditorViewport: Clicking Background
+[2019.10.01-16.41.07:087][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.01-16.41.10:902][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.10.01-16.41.12:056][360]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevelC5EBEC91408D8A35BDF1BFBC2CDFDC8E.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel.umap'
+[2019.10.01-16.41.12:123][360]LogSavePackage: Moving '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Saved/BasicWhiteBoxLevel_BuiltData23654B914C06C9BF705F6180DF52FF0E.tmp' to '../../../../../School/EAE 3660 - Machinima/Machinima Github/BrierPatchProject/BrierPatch_WB/Content/BasicWhiteBoxLevel_BuiltData.uasset'
