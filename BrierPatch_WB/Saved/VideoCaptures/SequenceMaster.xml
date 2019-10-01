@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmeml version="4">
+	<project>
+		<name>SequenceMasterProject</name>
+		<children>
+			<clip id="masterclip-1">
+				<masterclipid>masterclip-1</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>EstablishingShot_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-1">
+								<masterclipid>masterclip-1</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>EstablishingShot_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-1">
+									<name>EstablishingShot_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/EstablishingShot_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_0][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-2">
+				<masterclipid>masterclip-2</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>37</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>37</out>
+				<name>DaveDashCam_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-2">
+								<masterclipid>masterclip-2</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>DaveDashCam_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>37</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>37</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-2">
+									<name>DaveDashCam_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/DaveDashCam_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>37</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_1][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-3">
+				<masterclipid>masterclip-3</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>24</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>24</out>
+				<name>CollinsDonut_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-3">
+								<masterclipid>masterclip-3</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsDonut_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>24</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>24</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-3">
+									<name>CollinsDonut_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsDonut_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>24</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_2][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-4">
+				<masterclipid>masterclip-4</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>ChaseScene_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-4">
+								<masterclipid>masterclip-4</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>ChaseScene_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-4">
+									<name>ChaseScene_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/ChaseScene_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_3][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-5">
+				<masterclipid>masterclip-5</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>Crash_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-5">
+								<masterclipid>masterclip-5</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>Crash_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-5">
+									<name>Crash_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/Crash_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_4][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-6">
+				<masterclipid>masterclip-6</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>28</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>28</out>
+				<name>CollinsDashCam_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-6">
+								<masterclipid>masterclip-6</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsDashCam_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>28</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>28</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-6">
+									<name>CollinsDashCam_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsDashCam_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>28</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_5][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-7">
+				<masterclipid>masterclip-7</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>32</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>32</out>
+				<name>DavePanicking_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-7">
+								<masterclipid>masterclip-7</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>DavePanicking_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>32</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>32</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-7">
+									<name>DavePanicking_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/DavePanicking_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>32</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_6][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-8">
+				<masterclipid>masterclip-8</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>27</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>27</out>
+				<name>CollinsDashCam_Shot2</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-8">
+								<masterclipid>masterclip-8</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsDashCam_Shot2</name>
+								<enabled>TRUE</enabled>
+								<duration>27</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>27</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-8">
+									<name>CollinsDashCam_Shot2.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsDashCam_Shot2.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>27</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_7][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-9">
+				<masterclipid>masterclip-9</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>32</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>32</out>
+				<name>CollinsAssitanceCall_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-9">
+								<masterclipid>masterclip-9</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsAssitanceCall_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>32</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>32</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-9">
+									<name>CollinsAssitanceCall_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsAssitanceCall_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>32</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_8][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-10">
+				<masterclipid>masterclip-10</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>29</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>29</out>
+				<name>CollinsMedkit_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-10">
+								<masterclipid>masterclip-10</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsMedkit_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>29</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>29</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-10">
+									<name>CollinsMedkit_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsMedkit_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>29</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_9][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-11">
+				<masterclipid>masterclip-11</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>CollinsMedkit_Shot2</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-11">
+								<masterclipid>masterclip-11</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsMedkit_Shot2</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-11">
+									<name>CollinsMedkit_Shot2.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsMedkit_Shot2.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_10][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-12">
+				<masterclipid>masterclip-12</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>CollinsMedkit_Shot3</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-12">
+								<masterclipid>masterclip-12</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsMedkit_Shot3</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-12">
+									<name>CollinsMedkit_Shot3.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsMedkit_Shot3.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_11][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-13">
+				<masterclipid>masterclip-13</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>CollinsMedkit_Shot4</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-13">
+								<masterclipid>masterclip-13</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsMedkit_Shot4</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-13">
+									<name>CollinsMedkit_Shot4.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsMedkit_Shot4.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_12][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-14">
+				<masterclipid>masterclip-14</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>CollinsMonster_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-14">
+								<masterclipid>masterclip-14</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>CollinsMonster_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-14">
+									<name>CollinsMonster_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/CollinsMonster_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_13][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-15">
+				<masterclipid>masterclip-15</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>Escape_Shot1</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-15">
+								<masterclipid>masterclip-15</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>Escape_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-15">
+									<name>Escape_Shot1.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/Escape_Shot1.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_14][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-16">
+				<masterclipid>masterclip-16</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>Escape_Shot2</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-16">
+								<masterclipid>masterclip-16</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>Escape_Shot2</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-16">
+									<name>Escape_Shot2.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/Escape_Shot2.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_15][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-17">
+				<masterclipid>masterclip-17</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>Escape_Shot3</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-17">
+								<masterclipid>masterclip-17</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>Escape_Shot3</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-17">
+									<name>Escape_Shot3.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/Escape_Shot3.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_16][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<clip id="masterclip-18">
+				<masterclipid>masterclip-18</masterclipid>
+				<ismasterclip>TRUE</ismasterclip>
+				<duration>30</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<in>1</in>
+				<out>30</out>
+				<name>Escape_Shot4</name>
+				<media>
+					<video>
+						<track>
+							<clipitem id="clipitem-18">
+								<masterclipid>masterclip-18</masterclipid>
+								<ismasterclip>TRUE</ismasterclip>
+								<name>Escape_Shot4</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<in>1</in>
+								<out>30</out>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+								<file id="file-18">
+									<name>Escape_Shot4.avi</name>
+									<pathurl>file://localhost/C%3a/Users/Whitt/Documents/GitHub/BrierPatchProject/BrierPatch_WB/Saved/VideoCaptures/Escape_Shot4.avi</pathurl>
+									<rate>
+										<timebase>30</timebase>
+										<ntsc>FALSE</ntsc>
+									</rate>
+									<duration>30</duration>
+									<timecode>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<string>00:00:00:00</string>
+										<frame>0</frame>
+									</timecode>
+									<media>
+										<video>
+											<samplecharacteristics>
+												<rate>
+													<timebase>30</timebase>
+													<ntsc>FALSE</ntsc>
+												</rate>
+												<width>1280</width>
+												<height>720</height>
+												<anamorphic>FALSE</anamorphic>
+												<pixelaspectratio>square</pixelaspectratio>
+												<fielddominance>lower</fielddominance>
+											</samplecharacteristics>
+										</video>
+									</media>
+								</file>
+							</clipitem>
+						</track>
+					</video>
+				</media>
+				<logginginfo>
+					<description />
+					<scene />
+					<shottake />
+					<good />
+					<originalvideofilename />
+					<originalaudiofilename />
+					<lognote>[UE4ShotSection=/Game/Cinematics/Sequences/Sequence/SequenceMaster.SequenceMaster:MovieScene_0.MovieSceneCinematicShotTrack_0.MovieSceneCinematicShotSection_17][UE4ShotStartOffset=0][UE4ShotHandleFrames=0]</lognote>
+				</logginginfo>
+				<colorinfo>
+					<lut />
+					<lut1 />
+					<asc_sop />
+					<asc_sat />
+					<lut2 />
+				</colorinfo>
+			</clip>
+			<sequence id="sequence-1">
+				<duration>540</duration>
+				<rate>
+					<timebase>30</timebase>
+					<ntsc>FALSE</ntsc>
+				</rate>
+				<name>SequenceMaster</name>
+				<media>
+					<video>
+						<format>
+							<samplecharacteristics>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<width>1280</width>
+								<height>720</height>
+								<anamorphic>FALSE</anamorphic>
+								<pixelaspectratio>square</pixelaspectratio>
+								<fielddominance>lower</fielddominance>
+							</samplecharacteristics>
+						</format>
+						<track>
+							<clipitem id="clipitem-19">
+								<masterclipid>masterclip-2</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>DaveDashCam_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>37</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>30</start>
+								<end>67</end>
+								<in>1</in>
+								<out>37</out>
+								<file id="file-2" />
+							</clipitem>
+							<clipitem id="clipitem-20">
+								<masterclipid>masterclip-4</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>ChaseScene_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>91</start>
+								<end>121</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-4" />
+							</clipitem>
+							<clipitem id="clipitem-21">
+								<masterclipid>masterclip-6</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsDashCam_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>28</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>151</start>
+								<end>179</end>
+								<in>1</in>
+								<out>28</out>
+								<file id="file-6" />
+							</clipitem>
+							<clipitem id="clipitem-22">
+								<masterclipid>masterclip-8</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsDashCam_Shot2</name>
+								<enabled>TRUE</enabled>
+								<duration>27</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>211</start>
+								<end>238</end>
+								<in>1</in>
+								<out>27</out>
+								<file id="file-8" />
+							</clipitem>
+							<clipitem id="clipitem-23">
+								<masterclipid>masterclip-10</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsMedkit_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>29</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>271</start>
+								<end>300</end>
+								<in>1</in>
+								<out>29</out>
+								<file id="file-10" />
+							</clipitem>
+							<clipitem id="clipitem-24">
+								<masterclipid>masterclip-12</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsMedkit_Shot3</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>330</start>
+								<end>360</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-12" />
+							</clipitem>
+							<clipitem id="clipitem-25">
+								<masterclipid>masterclip-14</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsMonster_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>390</start>
+								<end>420</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-14" />
+							</clipitem>
+							<clipitem id="clipitem-26">
+								<masterclipid>masterclip-16</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>Escape_Shot2</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>450</start>
+								<end>480</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-16" />
+							</clipitem>
+							<clipitem id="clipitem-27">
+								<masterclipid>masterclip-18</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>Escape_Shot4</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>510</start>
+								<end>540</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-18" />
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+						<track>
+							<clipitem id="clipitem-28">
+								<masterclipid>masterclip-1</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>EstablishingShot_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>0</start>
+								<end>30</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-1" />
+							</clipitem>
+							<clipitem id="clipitem-29">
+								<masterclipid>masterclip-3</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsDonut_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>24</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>67</start>
+								<end>91</end>
+								<in>1</in>
+								<out>24</out>
+								<file id="file-3" />
+							</clipitem>
+							<clipitem id="clipitem-30">
+								<masterclipid>masterclip-5</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>Crash_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>121</start>
+								<end>151</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-5" />
+							</clipitem>
+							<clipitem id="clipitem-31">
+								<masterclipid>masterclip-7</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>DavePanicking_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>32</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>179</start>
+								<end>211</end>
+								<in>1</in>
+								<out>32</out>
+								<file id="file-7" />
+							</clipitem>
+							<clipitem id="clipitem-32">
+								<masterclipid>masterclip-9</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsAssitanceCall_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>32</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>238</start>
+								<end>270</end>
+								<in>1</in>
+								<out>32</out>
+								<file id="file-9" />
+							</clipitem>
+							<clipitem id="clipitem-33">
+								<masterclipid>masterclip-11</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsMedkit_Shot2</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>300</start>
+								<end>330</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-11" />
+							</clipitem>
+							<clipitem id="clipitem-34">
+								<masterclipid>masterclip-13</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>CollinsMedkit_Shot4</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>360</start>
+								<end>390</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-13" />
+							</clipitem>
+							<clipitem id="clipitem-35">
+								<masterclipid>masterclip-15</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>Escape_Shot1</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>420</start>
+								<end>450</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-15" />
+							</clipitem>
+							<clipitem id="clipitem-36">
+								<masterclipid>masterclip-17</masterclipid>
+								<ismasterclip>FALSE</ismasterclip>
+								<name>Escape_Shot3</name>
+								<enabled>TRUE</enabled>
+								<duration>30</duration>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<start>480</start>
+								<end>510</end>
+								<in>1</in>
+								<out>30</out>
+								<file id="file-17" />
+							</clipitem>
+							<enabled>TRUE</enabled>
+							<locked>FALSE</locked>
+						</track>
+					</video>
+					<audio>
+						<numOutputChannels>1</numOutputChannels>
+						<format>
+							<samplecharacteristics>
+								<depth>16</depth>
+								<samplerate>44100</samplerate>
+							</samplecharacteristics>
+						</format>
+						<outputs>
+							<group>
+								<index>1</index>
+								<numchannels>1</numchannels>
+								<downmix>0</downmix>
+								<channel>
+									<index>1</index>
+								</channel>
+							</group>
+						</outputs>
+					</audio>
+				</media>
+				<timecode>
+					<rate>
+						<timebase>30</timebase>
+						<ntsc>FALSE</ntsc>
+					</rate>
+					<string>00:00:00:00</string>
+					<frame>0</frame>
+				</timecode>
+			</sequence>
+		</children>
+	</project>
+</xmeml>
